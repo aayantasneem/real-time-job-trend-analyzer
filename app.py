@@ -13,7 +13,7 @@ st.sidebar.header("Controls")
 keyword = st.sidebar.text_input("Enter job keyword (e.g., Python Developer):", "Python Developer")
 fetch_button = st.sidebar.button("Fetch Latest Jobs", key="fetch")
 
-csv_filename = "real-time-job-trend-analyzer/jobs.csv"
+csv_filename = "jobs.csv"
 
 if fetch_button:
     with st.spinner(f"Scraping jobs for keyword: 	{keyword}	 ..."):
