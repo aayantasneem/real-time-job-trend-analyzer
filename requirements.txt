@@ -2,6 +2,4 @@ streamlit
 pandas
 numpy
 matplotlib
-os
-json
 BeautifulSoup
